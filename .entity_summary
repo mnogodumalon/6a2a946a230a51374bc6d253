@@ -1,0 +1,3 @@
+- Reparaturaufträge (reparaturauftraege): auftragsnummer[string/text], eingangsdatum[date/date], kunde[applookup/select], fahrzeug_bezeichnung[string/text], kennzeichen[string/text], problembeschreibung[string/textarea], mitarbeiter[string/text], voraussichtliche_fertigstellung[date/date], status[lookup/radio], interne_notizen[string/textarea]
+  → kunde links to app_id 6a2a94549cc8953c0fbcc8bc
+- Kundenverwaltung (kundenverwaltung): vorname[string/text], nachname[string/text], telefon[string/tel], email[string/email], notiz_kunde[string/textarea]

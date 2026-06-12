@@ -1,0 +1,21 @@
+{
+  "ReparaturauftraegeDialog.tsx": {
+    "auftragsnummer": "z. B. RA-2026-0042",
+    "eingangsdatum": "Wann ist der Auftrag eingegangen?",
+    "kunde": "Welcher Kunde?",
+    "fahrzeug_bezeichnung": "z. B. BMW 3er, Bohrmaschine",
+    "kennzeichen": "z. B. B-AB 1234, SN123456",
+    "problembeschreibung": "Beschreibe das Problem — was funktioniert nicht, welche Fehler?",
+    "mitarbeiter": "z. B. Max Müller",
+    "voraussichtliche_fertigstellung": "Wann ist es voraussichtlich fertig?",
+    "status": "z. B. Eingegangen, In Bearbeitung",
+    "interne_notizen": "Besonderheiten, Ersatzteil-Infos, Fehlersuche-Schritte..."
+  },
+  "KundenverwaltungDialog.tsx": {
+    "vorname": "z. B. Peter",
+    "nachname": "z. B. Müller",
+    "telefon": "z. B. 030 1234567",
+    "email": "z. B. peter@example.de",
+    "notiz_kunde": "Zahlungsweise, Vorlieben, Besonderheiten..."
+  }
+}

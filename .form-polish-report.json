@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Reparaturaufträge": {
+      "placeholders_set": 10,
+      "defaults_keys": ["eingangsdatum", "status"],
+      "computed_keys": [],
+      "reason": "Werkstatt-Auftrag mit Status-Pipeline (eingegangen → in_bearbeitung → fertig_zur_abholung). Keine numerischen Felder mit Berechnung — weder Preis, Stunden noch Mengen. Datumspaar (eingangsdatum, voraussichtliche_fertigstellung) könnte theoretisch als Dauer rechnen, ist aber operativ weniger relevant als bei Buchungen. Daher nur Pflicht-Defaults: Eingangsdatum=heute, Status=eingegangen (erster Status im Workflow)."
+    },
+    "Kundenverwaltung": {
+      "placeholders_set": 5,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten: Kontaktinformationen (Vorname, Nachname, Email, Telefon) und Notizen. Kein Datum, kein Preis, keine Berechnung. FieldOrder bereits vom Generator als row-Pair für Vorname+Nachname vorgegeben — nicht überschrieben."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "reparaturauftraege",
+      "app_id": "6a2a945752aca730d81808a1",
+      "path": "/rest/apps/6a2a945752aca730d81808a1/records",
+      "allowed_fields": [
+        "auftragsnummer",
+        "eingangsdatum",
+        "fahrzeug_bezeichnung",
+        "kennzeichen",
+        "problembeschreibung",
+        "mitarbeiter",
+        "voraussichtliche_fertigstellung",
+        "status",
+        "interne_notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Reparaturaufträge — Formular"
+    },
+    {
+      "entity": "kundenverwaltung",
+      "app_id": "6a2a94549cc8953c0fbcc8bc",
+      "path": "/rest/apps/6a2a94549cc8953c0fbcc8bc/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "telefon",
+        "email",
+        "notiz_kunde"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kundenverwaltung — Formular"
+    }
+  ]
+}
